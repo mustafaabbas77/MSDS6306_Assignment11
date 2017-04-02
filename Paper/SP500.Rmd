@@ -1,0 +1,26 @@
+---
+title: "SP500"
+author: "Mustafa Sakarwala"
+date: "April 2, 2017"
+output: 
+  html_document:
+    keep_md: true
+---
+
+```{r setup, include=FALSE}
+getwd()
+if (!require("tseries")) {
+  install.packages("tseries") 
+}
+```
+
+## R Markdown
+
+This is an R Markdown document for Assignment 11
+
+The url to the github repository is
+
+https://github.com/mustafaabbas77/MSDS6306_Assignment11.git
+
+```{r code=readLines("../Source/SP500.R")}
+```
