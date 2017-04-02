@@ -8,7 +8,6 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-getwd()
 if (!require("tseries")) {
   install.packages("tseries") 
 }
